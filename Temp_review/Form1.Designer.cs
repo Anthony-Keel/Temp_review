@@ -46,15 +46,17 @@
             this.btnFileSelect.TabIndex = 0;
             this.btnFileSelect.Text = "Select a File ";
             this.btnFileSelect.UseVisualStyleBackColor = true;
+            this.btnFileSelect.Click += new System.EventHandler(this.btnFileSelect_Click);
             // 
             // btnReportResults
             // 
             this.btnReportResults.Location = new System.Drawing.Point(13, 67);
             this.btnReportResults.Name = "btnReportResults";
-            this.btnReportResults.Size = new System.Drawing.Size(75, 23);
+            this.btnReportResults.Size = new System.Drawing.Size(98, 23);
             this.btnReportResults.TabIndex = 1;
             this.btnReportResults.Text = "Report Results";
             this.btnReportResults.UseVisualStyleBackColor = true;
+            this.btnReportResults.Click += new System.EventHandler(this.btnReportResults_Click);
             // 
             // groupBox1
             // 
